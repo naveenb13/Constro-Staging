@@ -1,0 +1,749 @@
+$ff-bold: 'CircularStdBold';
+$ff-book: 'CircularStdBook';
+$ff-light: 'CircularSpotifyTxT-Light';
+$ff-medium: 'CircularStdMedium';
+
+$primary-color: #FFFFFF;
+$secondary-color: #FEDE31;
+$third-color: #000000;
+$fourth-color: #F5F5F5;
+$fifth-color: #094899;
+
+body {
+    background: $primary-color !important;
+    overflow-x: hidden !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: top center !important;
+    width: 100%;
+}
+
+.ff-bold {
+    font-family: $ff-bold;
+}
+
+.ff-medium {
+    font-family: $ff-medium;
+}
+
+.ff-book {
+    font-family: $ff-book;
+}
+
+.ff-light {
+    font-family: $ff-light;
+}
+
+.text-gray {
+    color: #7C7C7C !important;
+}
+
+.text-blue {
+    color: #094899 !important
+}
+
+.text-dark {
+    color: $third-color !important;
+}
+
+.text-secondary {
+    color: $secondary-color !important;
+}
+
+.banner-font {
+    font-size: 100px !important;
+}
+
+.font-style {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.625px;
+}
+
+.font-banner {
+    font-size: 50px;
+    font-weight: 900 !important;
+}
+
+.font-subhead {
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: -0.9px;
+    line-height: 48px;
+}
+
+.work-head {
+    font-size: 48px !important;
+    letter-spacing: -1.2px !important;
+    line-height: 56px !important;
+}
+
+.font-gradient-text {
+    font-size: 20px !important;
+    letter-spacing: 4px !important;
+}
+
+.nav-text {
+    font-size: 20px;
+    font-weight: 400;
+    color: $third-color;
+}
+
+.nav-link-space {
+    .nav-text:hover {
+        color: $secondary-color !important;
+        background-color: $third-color !important;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 20px;
+        font-weight: 400;
+    }
+}
+
+.text-banner {
+    background: -webkit-linear-gradient(#00F795, #00C4E9) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+.bg-btn {
+    border: 2px solid $third-color;
+    background-color: $secondary-color;
+    border-radius: 20px;
+    font-size: 20px;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.bg-btn-icon {
+    color: $primary-color;
+}
+
+.delete-btn {
+    color: red !important;
+    background: $primary-color !important;
+    border: 2px solid !important;
+    border-color: red !important;
+    border-radius: 5px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
+
+.add-btn {
+    background: green !important;
+    border-radius: 5px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
+
+.delete-btn:hover {
+    color: $primary-color !important;
+    border: 2px solid !important;
+    border-color: black !important;
+}
+
+.add-btn:hover {
+    background-color: green !important;
+}
+
+.step-bg {
+    background-color: $secondary-color !important;
+    border-radius: 20px;
+}
+
+.quote-bg {
+    background: URL('../img/E-commerce/bg-quote.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    // backdrop-filter: blur(3px);
+    // // -webkit-filter: blur(3px);
+    // filter: blur(3px);
+    // box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+    // box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.bg-btn-count-icon {
+    background-color: $secondary-color;
+    padding-left: 6px;
+    padding-right: 6px;
+    color: $third-color;
+    border-radius: 50px;
+    border: 1px solid $secondary-color;
+}
+
+.bg-btn:hover {
+    border: 2px solid $secondary-color;
+    background-color: $third-color;
+    border-radius: 20px;
+    font-size: 20px;
+    width: fit-content;
+    cursor: pointer;
+
+    .bg-btn-icon {
+        color: $secondary-color !important;
+    }
+}
+
+.bg-connect {
+    border: 2px dashed #cb9f0b;
+    border-radius: 30px;
+}
+
+.btn-white {
+    background-color: #EAEAEA !important;
+    border-radius: 30px !important;
+    border: none !important;
+    font-size: 18px;
+    letter-spacing: -0.45px;
+}
+
+section {
+    padding: 60px 40px;
+}
+
+.navbar-toggler {
+    // margin-top: 15px !important;
+    float: right;
+}
+
+@keyframes float {
+    0% {
+        transform: translatey(0px);
+    }
+
+    50% {
+        transform: translatey(-60px);
+    }
+
+    100% {
+        transform: translatey(0px);
+    }
+}
+
+.navbar {
+    background-color: $secondary-color !important;
+}
+
+.w-maxcontent {
+    width: max-content;
+}
+
+.border-integration {
+    border: 2px solid #252525;
+    border-radius: 20px;
+}
+
+
+.border-top-bottom {
+    border-top: 2px solid #252525;
+    border-bottom: 2px solid #252525;
+}
+
+.image-style {
+    border-radius: 20px;
+    width: 400px;
+    height: 200px;
+}
+
+.footer-text {
+    color: #575757;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.nav-link-space {
+    .footer-text:hover {
+        background: -webkit-linear-gradient(#00F795, #00C4E9);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 17px;
+        font-weight: 400;
+    }
+}
+
+.bg-footer {
+    // background-color: #000000;
+    background: URL('../img/E-commerce/footer-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.nft-table {
+    overflow-x: auto !important;
+}
+
+.div-size {
+    width: 150px;
+}
+
+.bg-banner-slide {
+    background: URL('../img//E-commerce/banner-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+
+    h4 {
+        font-size: 30px !important;
+    }
+
+    h2 {
+        font-size: 63px !important;
+    }
+}
+
+.bg-banner-slide1 {
+    background: URL('../img//E-commerce/product3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    border: 5px solid $secondary-color;
+
+    h4 {
+        font-size: 30px !important;
+    }
+
+    h2 {
+        font-size: 63px !important;
+    }
+}
+
+.bg-products {
+    background-color: $secondary-color;
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+}
+
+.bg-essential {
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    width: 170px;
+    height: 170px;
+}
+
+.text-yellow {
+    color: #cb9f0b;
+}
+
+.bg-mobile-slide1 {
+
+    background: URL('../img//E-commerce/phone-bg1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+}
+
+.bg-mobile-slide2 {
+
+    background: URL('../img//E-commerce/phone-bg2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+}
+
+.bg-mobile-slide3 {
+
+    background: URL('../img//E-commerce/phone-bg3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+}
+
+.bg-testimonal {
+    background: URL('../img//E-commerce/testimonials.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-phone-name1 {
+    background-color: $third-color;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+.bg-phone-name2 {
+    background-color: #F6DE8D;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+.bg-phone-name3 {
+    background-color: #FFD1B0;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+.border-yellow {
+    border-bottom: 3px solid #cb9f0b;
+}
+
+.border-dark {
+    border-bottom: 3px solid $secondary-color;
+}
+
+.border-bottom-white {
+    border-bottom: 3px solid #fff;
+    width: fit-content;
+}
+
+.cardImg {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid $primary-color;
+    border-radius: 10px;
+}
+
+.cardImgstyles {
+    min-height: 200px;
+    max-height: 200px;
+}
+
+.cardstyles {
+    margin-right: 10px;
+    background-color: $secondary-color;
+}
+
+.addcartbtn {
+    color: $primary-color !important;
+    background: $third-color !important;
+    border-radius: 5px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+}
+
+.addcartbtn:hover {
+    background: $third-color !important;
+    color: $secondary-color !important;
+}
+
+.addcartbtn1 {
+    color: $primary-color !important;
+    background: $third-color !important;
+    border-radius: 5px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+}
+
+.addcartbtn1:hover {
+    background: $third-color !important;
+    color: $secondary-color !important;
+}
+
+.rating-bg {
+    background-color: darkgreen;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-radius: 5px;
+}
+
+.addButton {
+    background: $third-color !important;
+}
+
+.optionpost {
+    background-color: $third-color !important;
+}
+
+.optionpostitem {
+    color: $primary-color !important;
+    font-weight: bolder !important;
+}
+
+.optionpostname {
+    color: $secondary-color !important;
+}
+
+.nav-mobile {
+    z-index: 1 !important;
+}
+
+.nav-mobile1 {
+    z-index: 0 !important;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn:active:focus,
+.btn:active:hover,
+.btn.active:focus,
+.btn.active:hover,
+.navbar .navbar-nav>a.btn:hover,
+.navbar .navbar-nav>a.btn:focus,
+.navbar .navbar-nav>a.btn:active,
+.navbar .navbar-nav>a.btn.active,
+.navbar .navbar-nav>a.btn:active:focus,
+.navbar .navbar-nav>a.btn:active:hover,
+.navbar .navbar-nav>a.btn.active:focus,
+.navbar .navbar-nav>a.btn.active:hover {
+    background-color: none !important;
+    background-image: none !important;
+    background-image: none !important;
+    color: #ffffff !important;
+    box-shadow: none !important;
+}
+
+.btn:active {
+    background-color: $third-color !important;
+    background-image: none !important;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn:active:focus,
+.btn:active:hover {
+    background-color: $third-color !important;
+    background-image: none !important;
+}
+
+.drawerspec {
+    width: 50% !important;
+    overflow-y: auto !important;
+    box-sizing: border-box !important
+}
+
+.countGrid {
+    background-color: $secondary-color !important;
+    border-radius: 10px;
+}
+
+.deliveryGrid {
+    background-color: $secondary-color !important;
+    border-radius: 10px;
+}
+
+.menu-active {
+    color: $secondary-color !important;
+    background-color: $third-color !important;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.input-color {
+    color: $third-color;
+}
+
+.cart-text-bg {
+    background-color: $secondary-color;
+}
+
+.banner-text {
+    color: $third-color;
+    background-color: $secondary-color;
+}
+
+//Testimonal
+
+.css-1fzpoyk {
+    width: 100% !important;
+    z-index: 0 !important;
+    top: 40% !important;
+}
+
+.css-1qzevvg {
+    left: 0px !important;
+    right: 0px !important;
+    bottom: 180px !important;
+}
+
+.testimonal-card {
+    width: 100%;
+    // height: 60%;
+    background: URL('../img//E-commerce/phone-bg2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+}
+
+//React 3D Banner Carousel
+
+.bg-color-banner {
+    background: URL('../img/E-commerce/banner-bg-6.png');
+    background-color: white !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.position-rel {
+    position: relative;
+}
+
+.position-rel2 {
+    position: absolute;
+    bottom: 0px;
+    left: 80px;
+}
+
+.position-rel4 {
+    position: relative;
+    bottom: 80px;
+    left: 80px;
+}
+
+.position-rel9 {
+    text-align: center;
+    margin: auto;
+}
+
+.position-rel9-button {
+    position: absolute;
+    top: 53%;
+    left: 43%;
+}
+
+.position-rel9-text {
+    position: absolute;
+    top: 30%;
+    left: 32%;
+}
+
+.position-rel9-para {
+    position: absolute;
+    top: 46%;
+    left: 32%;
+}
+
+.position-go-banner-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.blue {
+    background-color: $third-color !important;
+}
+
+.allContainer {
+    z-index: 0 !important;
+}
+
+// .rightContainer {
+//     background-color: $secondary-color !important;
+//     border-radius: 50px !important;
+// }
+
+.rightContainer>img {
+    max-width: 52vw !important;
+    height: none !important;
+    object-fit: contain !important;
+}
+
+.leftContainer {
+    overflow: visible !important;
+}
+
+.btn {
+    width: auto !important;
+    animation: none !important;
+}
+
+.Goleft {
+    display: none !important;
+}
+
+.banner-animation {
+    animation: wiggle 2s linear infinite;
+}
+
+// .quote-bg-form {
+//     background-color: $secondary-color !important;
+//     border-radius: 20px;
+// }
+
+//Reactstrap
+
+.form-control-quote {
+    border-color: $third-color !important;
+    color: $third-color !important;
+}
+
+.form-control-quote:focus {
+    color: $third-color !important;
+}
+
+//react-form-wizard-component
+
+.wizard-card-footer {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: 20px !important;
+}
+
+.wizardButton {
+    color: $primary-color !important;
+    background: $fifth-color !important;
+    border-radius: 5px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+}
+
+.wizardButton:hover {
+    background: $fifth-color !important;
+    color: $primary-color !important;
+}
+
+/* Keyframes */
+@keyframes wiggle {
+
+    0%,
+    7% {
+        transform: rotateZ(0);
+    }
+
+    15% {
+        transform: rotateZ(-15deg);
+    }
+
+    20% {
+        transform: rotateZ(10deg);
+    }
+
+    25% {
+        transform: rotateZ(-10deg);
+    }
+
+    30% {
+        transform: rotateZ(6deg);
+    }
+
+    35% {
+        transform: rotateZ(-4deg);
+    }
+
+    40%,
+    100% {
+        transform: rotateZ(0);
+    }
+}

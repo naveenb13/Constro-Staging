@@ -1,0 +1,103 @@
+$asset-base-path: '../../../../assets' !default;
+
+// Core
+
+@import "constro/custom/functions";
+@import "~bootstrap/scss/functions";
+
+@import "constro/custom/variables";
+@import "~bootstrap/scss/variables";
+
+@import "constro/custom/mixins";
+@import "~bootstrap/scss/mixins";
+
+// Bootstrap components
+
+@import "~bootstrap/scss/root";
+@import "~bootstrap/scss/reboot";
+@import "~bootstrap/scss/type";
+@import "~bootstrap/scss/images";
+@import "~bootstrap/scss/code";
+@import "~bootstrap/scss/grid";
+@import "~bootstrap/scss/tables";
+@import "~bootstrap/scss/forms";
+@import "~bootstrap/scss/buttons";
+@import "~bootstrap/scss/transitions";
+@import "~bootstrap/scss/dropdown";
+@import "~bootstrap/scss/button-group";
+@import "~bootstrap/scss/input-group";
+@import "~bootstrap/scss/custom-forms";
+@import "~bootstrap/scss/nav";
+@import "~bootstrap/scss/navbar";
+@import "~bootstrap/scss/card";
+@import "~bootstrap/scss/breadcrumb";
+@import "~bootstrap/scss/pagination";
+@import "~bootstrap/scss/badge";
+@import "~bootstrap/scss/jumbotron";
+@import "~bootstrap/scss/alert";
+@import "~bootstrap/scss/progress";
+@import "~bootstrap/scss/media";
+@import "~bootstrap/scss/list-group";
+@import "~bootstrap/scss/close";
+@import "~bootstrap/scss/modal";
+@import "~bootstrap/scss/tooltip";
+@import "~bootstrap/scss/popover";
+@import "~bootstrap/scss/carousel";
+@import "~bootstrap/scss/utilities";
+@import "~bootstrap/scss/print";
+
+// Custom components
+
+@import "constro/custom/alerts.scss";
+@import "constro/custom/buttons.scss";
+@import "constro/custom/dropdown.scss";
+@import "constro/custom/footer.scss";
+@import "constro/custom/forms.scss";
+@import "constro/custom/images.scss";
+@import "constro/custom/modal.scss";
+@import "constro/custom/navbar.scss";
+@import "constro/custom/type.scss";
+@import "constro/custom/icons.scss";
+@import "constro/custom/tables";
+@import "constro/custom/checkboxes-radio";
+@import "constro/custom/fixed-plugin";
+@import "constro/custom/pagination.scss";
+@import "constro/custom/misc.scss";
+@import "constro/custom/rtl.scss";
+@import "constro/custom/input-group.scss";
+@import "constro/custom/example-pages.scss";
+@import "constro/custom/progress.scss";
+@import "constro/custom/badge.scss";
+@import "constro/custom/pills.scss";
+@import "constro/custom/tabs.scss";
+@import "constro/custom/info-areas.scss";
+
+// Sections
+@import "constro/custom/sections.scss";
+
+// Vendor / Plugins
+
+@import "constro/custom/vendor/plugin-perfect-scrollbar.scss";
+@import "constro/custom/vendor/plugin-animate-bootstrap-notify.scss";
+@import "constro/custom/vendor/plugin-bootstrap-switch.scss";
+@import "constro/custom/vendor/plugin-nouislider.scss";
+@import "constro/custom/vendor/plugin-datetimepicker.scss";
+
+// Cards
+
+@import "constro/custom/card";
+@import "constro/custom/cards/card-chart";
+@import "constro/custom/cards/card-map";
+@import "constro/custom/cards/card-user";
+@import "constro/custom/cards/card-task";
+@import "constro/custom/cards/card-plain";
+@import "constro/custom/cards/card-register";
+@import "constro/custom/cards/card-stats";
+@import "constro/custom/cards/card-chart";
+
+// React Differences
+
+@import "constro/react/react-differences";
+
+@import "custom.scss";
+@import "mobile.scss";
